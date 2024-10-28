@@ -1,0 +1,241 @@
+
+body {
+    font-family: 'EB Garamond';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #A73624;
+
+}
+
+body {
+    font-family: 'EB Garamond';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #cc9677;
+}
+
+header {
+    background-color: #222;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav .logo h1 {
+    font-family: 'Abril Fatface';
+
+    color: #fff;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2em;
+    transition: color 0.6s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+
+.hero {
+    background-image: url('../imagenes/inicio.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px 0;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.hero-content {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    font-family: 'Pacifico';
+    letter-spacing: 2px;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+}
+
+.btn {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.6s ease;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 145, 71);
+    border: 2px solid rgb(255, 145, 71);
+}
+
+.hero-image img {
+    max-width: 600px;
+    height: auto;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px;
+    background-color: #b3412f;
+}
+
+.intro h2 {
+    font-size: 2em;
+    color: white;
+    font-family: 'Pacifico';
+    letter-spacing: 2px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.productos {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffeae3;
+}
+
+.productos h2 {
+    color: #4e271a;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Pacifico';
+    letter-spacing: 2px;
+}
+
+.producto-lista {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.producto-item {
+    width: 30%;
+}
+
+.producto-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.producto-item h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #4e271a;
+}
+
+.contacto {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 800px; 
+}
+
+.contacto h2 {
+    font-family: 'Pacifico';
+    letter-spacing: 2px;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contacto p {
+    font-family: 'Pacifico';
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.contacto-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacto-info {
+    text-align: left;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.contacto-info strong {
+    font-size: 1.5em;
+    color: #b3412f;
+}
+
+.contacto-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contacto-info ul li {
+    font-size: 1.1em;
+}
+
+.imagen-contacto {
+    flex: 1;
+}
+
+.imagen-contacto img {
+    max-width: 100%;
+    border-radius: 10px;
+}
